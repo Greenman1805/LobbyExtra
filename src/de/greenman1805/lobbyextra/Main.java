@@ -39,8 +39,8 @@ public class Main extends JavaPlugin {
 		navGUI = new NavigatorGUI("§8» §9Navigator");
 		eb = new ElytraBoost();
 
-		new NavigatorItem("§f» §aSurvival", "Survival", Material.DIAMOND_PICKAXE, (short) 0, 13, "1.12.2", 25583);
-		new NavigatorItem("§f» §9Citybuild", "Citybuild", Material.SANDSTONE, (short) 0, 15, "1.12.2", 25584);
+		new NavigatorItem("§f» §aSurvival", "Survival", Material.DIAMOND_PICKAXE, (short) 0, 13, "1.13.2", 25583);
+		new NavigatorItem("§f» §9Citybuild", "Citybuild", Material.SANDSTONE, (short) 0, 15, "1.13.2", 25584);
 		new NavigatorItem("§f» §6GunPvP", "GunPvP", Material.GOLDEN_HORSE_ARMOR, (short) 0, 11, "1.12.2", 25582);
 
 		DroppedShards.startDroppingShards();
